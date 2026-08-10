@@ -144,10 +144,10 @@
 #def hey(name):
 #    print("My name is "+name)
 #hey("Anjana")
-num=int(input("enter your number:"))
-sum=0
-sum+=num
-if sum==0:
-    break
+# num=int(input("enter your number:"))
+# sum=0
+# sum+=num
+# if sum==0:
+#     # break
 
-print("sum =",sum)
+# print("sum =",sum)
