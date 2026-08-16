@@ -1,4 +1,5 @@
-text="jax"
+"""Count most frequent character"""
+text="banana"
 count={}
 for ch in text:
     if ch in count:
