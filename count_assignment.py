@@ -96,27 +96,33 @@
 
 """Find the second most frequent character"""
 
-# text="banana"
-# count={}
-# for ch in text:
-#     if ch in count:
-#         count[ch]+=1
-#     else:
-#         count[ch]=1
-# print(count)
-# heighest=0
-# second=0
-# second_frequent=""
-# for ch in count:
-#     if count[ch]>heighest:
-#         second=heighest
-#         second_frequent=ch
-#         heighest=count[ch]
-#     elif count[ch] > second:
-#         second=count[ch]
-#         second_frequent=ch
+text="ddddaaauub"
+count={}
+for ch in text:
+    if ch in count:
+        count[ch]+=1
+    else:
+        count[ch]=1
+print(count)
+highest=0
+second=0
+high=""
+second_frequent=""
+for ch in count:
+    if count[ch]>highest:
+        second=highest
+        second_frequent=ch
+        highest=count[ch]
+        high=ch
+        # print(second)
+        # print(second_frequent)
+        # print(highest)
+        # print(high)
+    elif count[ch] > second:
+        second=count[ch]
+        second_frequent=ch
         
-# print("Second Most Frequent Character is:",second_frequent)
+print("Second Most Frequent Character is:",second_frequent)
 
 """Find the Number of Unique Characters"""
 
@@ -237,17 +243,19 @@
 
 """The most common Error Code"""
 
-errors = [404, 500, 404, 403, 404, 500]
-count={}
-for error in errors:
-    if error in count:
-        count[error]+=1
-    else:
-        count[error]=1
-common=0
-frequent=""
-for error in count:
-    if count[error]>common:
-        common=count[error]
-        frequent=error
-print("The most common Error code is:",frequent)
+# errors = [404, 500, 404, 403, 404, 500]
+# count={}
+# for error in errors:
+#     if error in count:
+#         count[error]+=1
+#     else:
+#         count[error]=1
+# common=0
+# frequent=""
+# for error in count:
+#     if count[error]>common:
+#         common=count[error]
+#         frequent=error
+# print("The most common Error code is:",frequent)
+
+
