@@ -77,12 +77,31 @@
 # f.driving()
 
 
-class Animal:
-    def speak(self):
-        print("Animal sound")
-class Dog(Animal):
-    def speak(self):
-        super().speak()
-        print("Woof")
-d=Dog()
-d.speak()
+# class Animal:
+#     def speak(self):
+#         print("Animal sound")
+# class Dog(Animal):
+#     def speak(self):
+#         super().speak()
+#         print("Woof")
+# d=Dog()
+# d.speak()
+
+# class BankAccount:
+#     account_holder="Anjana"
+#     _balance=10000
+#     __pin=1234
+# d=BankAccount()
+# print(d.account_holder)
+# print(d._balance)
+# print(d._BankAccount__pin)
+
+class Person():
+    name="Rex"
+    age=21
+class Teacher(Person):
+    subject="maths"
+t=Teacher()
+print(t.subject)
+print(t.name)
+print(t.age)

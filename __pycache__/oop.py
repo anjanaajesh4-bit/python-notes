@@ -31,6 +31,7 @@
 # d.study()
 
 
+
 # 2. Car Class
 # Create a class Car with a method drive() that prints:
 # Car is moving
@@ -41,6 +42,8 @@
 #         print("Car is moving")
 # c=Car()
 # c.drive()
+
+
 
 # class student:
 #     name="Rahul"
@@ -56,6 +59,7 @@
 # d=dog()
 # d.bark()
 
+
 # class student:
 
 #     def __init__(self,name,age):
@@ -65,6 +69,9 @@
 #         print(f"Name:{self.name},Age:{self.age}")
 # d=student("Anu","10")
 # d.display()
+
+
+
 
 # class car:
 #     def __init__(self,brand,model):
@@ -76,12 +83,13 @@
 # d=car("Toyota","Innova")
 # d.display()
 
-class student:
-    def __init__(self,name):
-          self.name=name
-    def introduce(self):
-        print("My name is",self.name)
-s1=student("Anu")
-s2=student("Rahul")
-s1.introduce()
-s2.introduce()
+
+# class student:
+#     def __init__(self,name):
+#           self.name=name
+#     def introduce(self):
+#         print("My name is",self.name)
+# s1=student("Anu")
+# s2=student("Rahul")
+# s1.introduce()
+# s2.introduce()
